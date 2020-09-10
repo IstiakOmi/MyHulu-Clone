@@ -1,0 +1,6 @@
+.results > div {
+  /*for react flip move*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

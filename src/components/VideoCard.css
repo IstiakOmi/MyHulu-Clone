@@ -1,0 +1,45 @@
+.videoCard {
+  color: white;
+  width: 350px;
+  height: 280px;
+  padding: 20px;
+  transition: transform 100ms ease-out;
+  cursor: pointer;
+}
+
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard > img {
+  height: 210px;
+  width: 350px;
+  object-fit: contain;
+}
+
+.videoCard > h2 {
+  padding-top: 5px;
+  font-size: 19px;
+}
+
+.videoCard__stats {
+  display: none;
+}
+
+.videoCard:hover > .videoCard__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.videoCard__likes {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.videoCard__likes > .MuiSvgIcon-root {
+  color: rgb(0, 132, 255);
+  font-size: 16px;
+}
